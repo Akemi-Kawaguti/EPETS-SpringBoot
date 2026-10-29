@@ -1,6 +1,6 @@
 package com.site.epets.repository;
 
-import br.com.epets.model.Pedido;
+import com.site.epets.model.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

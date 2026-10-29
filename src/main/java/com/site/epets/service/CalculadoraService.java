@@ -1,8 +1,8 @@
 package com.site.epets.service;
 
-import br.com.epets.dto.Dtos.CupomResponse;
-import br.com.epets.dto.Dtos.FreteResponse;
-import br.com.epets.model.ModoEntrega;
+import com.site.epets.dto.Dtos.CupomResponse;
+import com.site.epets.dto.Dtos.FreteResponse;
+import com.site.epets.model.ModoEntrega;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

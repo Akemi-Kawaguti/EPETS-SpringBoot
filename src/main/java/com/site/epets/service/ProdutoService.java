@@ -1,8 +1,8 @@
 package com.site.epets.service;
 
-import br.com.epets.exception.NaoEncontradoException;
-import br.com.epets.model.Produto;
-import br.com.epets.repository.ProdutoRepository;
+import com.site.epets.exception.NaoEncontradoException;
+import com.site.epets.model.Produto;
+import com.site.epets.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
