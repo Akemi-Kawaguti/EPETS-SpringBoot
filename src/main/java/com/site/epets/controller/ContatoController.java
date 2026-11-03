@@ -24,7 +24,7 @@ public class ContatoController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public ContatoResponse enviar(@Valid @RequestBody ContatoRequest req) {
-        MensagemContato salva = repositorio.save(new MensagemContato(req.nomePet(), req.especie(), req.mensagem()));
+        MensagemContato salva = repositorio.save(new MensagemContato());
         return ContatoResponse.de(salva);
     }
 

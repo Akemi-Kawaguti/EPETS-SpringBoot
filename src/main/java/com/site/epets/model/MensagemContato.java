@@ -2,10 +2,7 @@ package com.site.epets.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
-import lombok.Cleanup;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -14,6 +11,7 @@ import java.time.LocalDateTime;
 @Table(name = "MensagemContato")
 @Getter
 @Setter
+@AllArgsConstructor
 @NoArgsConstructor
 public class MensagemContato {
 
@@ -36,5 +34,6 @@ public class MensagemContato {
     @Column
     @Valid
     private LocalDateTime recebidaEm;
+
 
 }
